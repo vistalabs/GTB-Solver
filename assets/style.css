@@ -12,9 +12,10 @@
 
 #result {
   padding: 0;
-  font-size: 16.5px;
+  font-size: 20px;
   text-align: center;
   list-style-type: none;
+  column-width: 175px;
 }
 
 ::placeholder {

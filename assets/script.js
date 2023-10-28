@@ -27,7 +27,7 @@ $(document).ready(function () {
                     break;
 
                 }
-                if (i == searchWord.length)
+                if (i == searchWord.length) // TODO: fix this to exclude spaces in answers
                   $("#result").append(value + '<br>');
               }
             }
@@ -53,9 +53,9 @@ $(document).ready(function () {
 
 
 // Character Count
-var count = document.getElementById("count")
-var input = document.getElementById("input")
+// var count = document.getElementById("count")
+// var input = document.getElementById("input")
 
-input.addEventListener("input", function(e){
-  count.innerHTML = e.target.value.length
-})
+// input.addEventListener("input", function(e){
+//   count.innerHTML = e.target.value.length
+// })
