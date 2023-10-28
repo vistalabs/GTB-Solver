@@ -1,12 +1,11 @@
 // Regex Search
 $(document).ready(function () {
   var wordsArray = arrayData;
-  var spacesCount = spaces
+  var spacesCount = spaces;
   
   $("[name='username']").keyup(function () {
     var words = $(this).val().replace(/_/g, '.');
     
-      // console.log(words);
       try {
         var searchWord = words.toLowerCase()
         var numSpaces = searchWord.split(" ").length - 1;
